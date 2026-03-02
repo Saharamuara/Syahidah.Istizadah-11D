@@ -1,0 +1,179 @@
+body{
+    background-color: #bca96f;
+    color: #2d1d0c;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #8B4513;
+    text-align: center;
+    border-bottom: 2px double #8B4513;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+h2 {
+    color: #A0522D;
+    margin-top: 30px;
+    border-left: 5px solid #A0522D;
+    padding-left: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    margin-bottom: 10px;
+}
+strong {
+    color: #582f22;
+}
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.produk {
+    background-color: #bb9b60;
+    border: 1px solid #bca96f;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.produk:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.produk img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto 10px auto;
+}
+.daftar-produk h2 {
+    border-left: none;
+    padding-left: 0;
+    text-align: center;
+    color: #2d1d0c;
+    font-size: 20px;
+}
+    
+.produk h3 {
+    font-size: 20px;
+    color: #2d1d0c;
+}
+.harga {
+    font-weight: bold;
+    color: #582f22;
+}
+.deskripsi {
+    font-size: 14px;
+    color: #2d1d0c;
+}
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #bca96f;
+    font-family: 'Playfair Display', serif;
+
+    line-height: 1.8;
+}
+.artikel .penulis {
+    font-style: italic;
+    color: #2d1d0c;
+    margin-bottom: 20px;
+}
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #bca96f;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0, 1);
+}
+.artikel .blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #2d1d0c;
+    color: #2d1d0c;
+    background-color: #c1a063;
+}
+.btn-kembali {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #2d1d0c;
+    color: #c1a063;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-kembali:hover {
+    background-color: #A0522D;
+    transition: 0.3s;
+}
+.formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #bb9b60;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #bb9b60;
+}
+form button {
+    background-color: #2d1d0c;
+    color: #c1a063;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #A0522D;
+}
+.header-beranda {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px 0;
+    border-top: 2px solid #8B4513;
+    border-bottom: 2px solid #8B4513;
+}
+
+.header-beranda img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
